@@ -17,6 +17,7 @@ import java.io.IOException;
  */
 public class EnDetailServlet extends HttpServlet {
     AuthService authService = new AuthServiceImpl();
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         EnterPrise enterPrise = new EnterPrise();
         WebUtil.makeRequestToObject(request,enterPrise);

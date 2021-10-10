@@ -16,7 +16,7 @@ public class JdbcUtil {
 
      final String URL="jdbc:mysql://localhost:3306/jj";
      final String USERNAME="root";
-     final String PASSWORD="******";
+     final String PASSWORD="junjie2002";
      public static  ThreadLocal <Connection> threadLocal = new ThreadLocal<Connection>();
      PreparedStatement ps= null;
      Connection con = null;
